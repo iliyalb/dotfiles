@@ -5,6 +5,7 @@ autoload -U compinit; compinit
 export ZSH="$HOME/.oh-my-zsh"
 export LANG=en_US.UTF-8
 export ARCHFLAGS="-arch x86_64"
+export XDG_CONFIG_HOME="$HOME/.config/"
 export TMPDIR="/tmp/"
 export PATH="$PATH:/home/iliya/.lmstudio/bin"
 export PATH="$PATH:/home/iliya/.dotnet/tools"
